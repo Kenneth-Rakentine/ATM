@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+<!-- metal frame -->
+   <div class="frame">
+
+            
+       
+<!-- entire screen section -->
+<div class="screen">
+<!--Scholas Banking Header-->
+    <div class="headertText">
+        <h1 class="title"> Scholas Banking </h1>
+<!-- Text Display Output-->
+        <div class="displOut"> Make Selection Below </div>
+
+    </div>
+
+<!-- on-screen MENU "BUTTONS" (use 6 actual BUTTONS here)-->
+         <div class="menu">
+                <!-- <div class="depositBoxesHidden">
+                    <button class="box" onclick="dep20()">20</button>
+                    <button class="box" onclick="dep40()">40</button>
+                    <button class="box" onclick="dep60()">60</button>
+                </div> -->
+             <div class="row">
+                 <button class="key" onclick="showDep()">Deposit</button>
+                 <button class="key" onclick="fastCash()">Fast Cash</button>
+             </div>
+         
+            <div class="row">
+                 <button class="key" onclick="chkBalanceBtn()">Check Balance</button>
+                <button class="key" onclick="chkDeposit()">Deposit Check</button>
+             </div>
+
+             <div class="row">
+                <button class="key" onclick="withdraw()">Withdraw</dbutton>
+                <button class="key" onclick="getAnyItem('transfer')">Transfer Funds</button>
+             </div>
+
+    </div>
+
+
+
+<!-- Foot -->
+
+ 
+
+    <!------ Keypad Keypad Keypad Keypad Keypad Keypad ------->
+    <div class="case">
+
+        <!-- Display -->
+
+
+        </div>
+
+
+        </div>
+         <!-- Row 1 -->
+
+    <div class="buttons">
+        <div class="row2">
+            <button class="key2"onclick="uploadtoscreen('7') ">7</button>
+            <button class="key2"onclick="uploadtoscreen('8') ">8</button>
+            <button class="key2"onclick="uploadtoscreen('9') ">9</button>
+            <button class="key2 clear"onclick="clearScreen() ">CLEAR</button>
+
+        </div>
+
+
+        <!-- Row 2 -->
+
+        <div class="row2">
+            <button class="key2"onclick="uploadtoscreen('4') ">4</button>
+            <button class="key2"onclick="uploadtoscreen('5') ">5</button>
+            <button class="key2"onclick="uploadtoscreen('6') ">6</button>
+            <button class="key2 cancel"onclick="cancelBtn() ">CANCEL</button>
+
+        </div>
+
+
+        <!-- Row 3 -->
+        <div class="row2">
+            <button class="key2"onclick="uploadtoscreen('1') ">1</button>
+            <button class="key2"onclick="uploadtoscreen('2') ">2</button>
+            <button class="key2"onclick="uploadtoscreen('3') ">3</button>
+            <button class="key2 back"onclick="uploadtoscreen('') ">BACK</button>
+        </div>
+
+        <!-- Row 4 -->
+
+        <div class="row2">
+            <button class="key2 mtleft"onclick="uploadtoscreen('/') "></button>
+            <button class="key2"onclick="uploadtoscreen('0') ">0</button>
+            <button class="key2 mtright"onclick="uploadtoscreen('X') "></button>
+            <button class="key2 equal"onclick="splitInput() ">ENTER</button>
+           
+           
+
+        </div>
+
+        </div>
+
+
+    </div>
+</div>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

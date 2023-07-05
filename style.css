@@ -1,0 +1,225 @@
+body{
+
+
+}
+
+.frame{
+    display:flex;
+    flex-direction: column;
+    border: solid black;
+    border-width:.2px;
+    border-radius:14px;
+    height:800px;
+    width:700px;
+    background-color:rgb(175, 175, 175);
+}
+
+.screen{
+    border: solid black;
+    border-width: .2px;
+    border-radius: 8px;
+    box-shadow: inset 4px 6px 4px 2px rgb(41, 46, 70);
+    height: 350px;
+    width:525px;
+    margin: 80px;
+    background-color: rgb(130, 130, 172);
+    /* padding-bottom: -80px; */
+    /* margin-right:15px; */
+}
+
+.displOut{
+ display:flex;
+ justify-content: space-around;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ /* padding-top: 10px; */
+ font-size: 32px;
+ /* border:solid green; */
+ height: 20px;
+ font-family: monospace;
+ color: rgba(22, 146, 22, 0.842)
+}
+
+.headerText{
+/* padding-top:15px; */
+}
+
+.title{
+    color: rgb(215, 211, 247);
+    text-align:center;
+    text-shadow: 1px 4px 2px rgb(96, 59, 129);
+    font-family:monospace;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-size: 38px;
+    padding-top:15px;
+    
+}
+
+.menu{
+display:column;
+justify-content: space-between;
+width: 490px;
+margin: 10px;
+margin: 0 auto;
+padding-top:30px;
+/* margin-bottom:200px; */
+/* border:solid green; */
+    
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    padding:9px;
+}
+
+
+/* KEYPAD CONTAINER*//* KEYPAD *//* KEYPAD *//* KEYPAD *//* KEYPAD */
+.buttons{
+    justify-content:center;
+    align-self:center;
+    width:100%;
+    height:600px;
+    /* border:solid red; */
+    align-items:center;
+    margin-left:150px;
+}
+/* KEYPAD *//* KEYPAD *//* KEYPAD *//* KEYPAD *//* KEYPAD */
+
+
+button{
+    background-color:rgb(201, 193, 228);
+align-self:center;
+align-items:center;
+height:180px;
+font-weight:bold;
+color:rgb(36, 29, 48);
+}
+
+button:hover{
+    background-color:rgb(201, 193, 228);
+align-self:center;
+align-items:center;
+cursor:pointer;
+}
+
+.key{
+    color:rgb(43, 50, 61);
+    border:solid rgb(63, 63, 75);
+    border-width:1.2px;
+    border-radius:4px;
+    height:40px;
+    width:112px;
+    text-decoration:solid;
+    text-shadow: 1px 1.4px 1px rgb(154, 160, 241);
+    cursor:pointer;
+    /* border-radius:22px; */
+    /* text-align:center; */
+    /* font-size:42px; */
+    /* padding-top:22px; */
+}
+.key:hover{
+    border:transparent rgb(37, 59, 37);
+    width:20%;
+    border-radius:6px;
+    text-align:center;
+    /* font-size:42px; */
+    /* padding-top:22px; */
+    background-color:rgb(90, 80, 128);
+    color:rgb(150, 152, 231);
+}
+
+.case{
+    /* border:solid rgb(95, 91, 91); */
+   margin-left:200px;
+   /* border:solid yellow; */
+}
+
+.row2{
+display:flex;
+justify-content:center;
+margin-right: 150px;
+border:solid grey;
+background-color: grey;
+}
+
+.key2{
+background-color: rgb(77, 77, 78);
+height: 30px;
+width:100px;
+/* flex-shrink: 10px; */
+/* justify-content: space-evenly; */
+align-self:center;
+box-shadow: 2px 4px 2px rgb(41, 40, 40);
+cursor:pointer;
+color:rgb(15, 15, 15);
+}
+
+
+.equal{
+    background-color: rgb(117, 163, 117);
+}
+
+.cancel{
+    background-color: rgb(163, 119, 117);
+}
+
+.back{
+    background-color: rgb(155, 163, 117);
+}
+
+.clear{
+    background-color: rgb(194, 202, 194);
+}
+
+.mtleft{
+    background-color: rgb(133, 133, 133);
+}
+.mtright{
+    background-color: rgb(133, 133, 133);
+}
+
+/* .depositBoxes{
+    display:none;
+    justify-content:center;
+
+   
+}
+
+.depositBoxes2{
+    display:none;
+    justify-content:center;
+
+} */
+
+.box{
+    height:30px;
+    width:50px;
+    margin-top:-8px;
+    /* justify-content:center;
+    align-self:center; */
+}
+
+.centerScreen{
+    /* border:solid black; */
+    display:flex;
+    justify-content:center;
+    border-radius:10px;
+    width:32%;
+    box-shadow:inset 0px 0px 8px 2px rgb(83, 86, 116);
+    height:40px;
+    background-color: rgb(114, 114, 148);;
+}
+
+.depBtn{
+    height:40px;
+}
+
+.depBtn:hover{
+    height:40px;
+    cursor:pointer;
+    background-color:rgb(133, 133, 223);
+    height:32px;
+}
